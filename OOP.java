@@ -135,7 +135,7 @@ class OOP {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter number to square: ");
         double num = input.nextInt();
-        square = Math.sqrt(num);
+        square = num * num;
         System.out.println("The square root of " + num + " is: " + square);
     }
 
